@@ -4,9 +4,10 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from "react-router-dom";
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
+import { BASE_URL } from '../utils';
 const navigation = [
-  { name: 'login as pet owner', href: '/petOwner-Login', current: false },
-  { name: 'Login as pet keeper', href: '/petKeeper-Login', current: false },
+  { name: 'login as pet owner', href: `${BASE_URL}/petOwner-Login`, current: false },
+  { name: 'Login as pet keeper', href: `${BASE_URL}/petKeeper-Login`, current: false },
 ]
 
 function classNames(...classes) {
