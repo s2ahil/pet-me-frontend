@@ -8,6 +8,7 @@ import { BASE_URL } from '../utils';
 const navigation = [
   { name: 'login as pet owner', href: '/petOwner-Login', current: false },
   { name: 'Login as pet keeper', href: '/petKeeper-Login', current: false },
+    { name: 'Chatbot', href: 'https://bot.textbase.ai/sahilpradhan411/palmai', current: false },
 ]
 
 function classNames(...classes) {
@@ -48,9 +49,9 @@ export default function Navbar() {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                  <Link to="/petOwner-Login" className='text-white font-bold text-[1.5rem] flex mb-4e'>login as pet owner</Link>
-                  <Link to="/petKeeper-Login" className='text-white font-bold text-[1.5rem] flex mb-4' >Login as pet keeper</Link>
-                     <Link to="https://bot.textbase.ai/sahilpradhan411/palmai" className='text-white font-bold text-[1.5rem] flex mb-4' >Wanna Ask Qsn To Chatbot</Link>
+                  <Link to="/petOwner-Login" className='text-white font-bold text-[0.5rem] flex mb-4 btn btn-blue'>login as pet owner</Link>
+                  <Link to="/petKeeper-Login" className='text-white font-bold text-[0.5rem] flex mb-4 btn btn-blue' >Login as pet keeper</Link>
+                     <Link to="https://bot.textbase.ai/sahilpradhan411/palmai" className='text-white font-bold text-[0.5rem] flex mb-4 btn btn-blue'  >Wanna Ask Qsn To Chatbot</Link>
                     {/* {navigation.map((item) => (
                       <a
                         key={item.name}
