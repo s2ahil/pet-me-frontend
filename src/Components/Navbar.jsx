@@ -49,9 +49,9 @@ export default function Navbar() {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                  <Link to="/petOwner-Login" className='text-white font-bold text-[1rem] flex mb-4 btn btn-blue'>login as pet owner</Link>
-                  <Link to="/petKeeper-Login" className='text-white font-bold text-[1rem] flex mb-4 btn btn-blue' >Login as pet keeper</Link>
-                     <Link to="https://bot.textbase.ai/sahilpradhan411/palmai" className='text-white font-bold text-[1rem] flex mb-4 btn btn-blue'  >Wanna Ask Qsn To Chatbot</Link>
+                  <Link to="/petOwner-Login" className='text-white font-bold text-[1.3rem] flex mb-4 btn btn-blue'>login as pet owner</Link>
+                  <Link to="/petKeeper-Login" className='text-white font-bold text-[1.3rem] flex mb-4 btn btn-blue' >Login as pet keeper</Link>
+                     <Link to="https://bot.textbase.ai/sahilpradhan411/palmai" className='text-white font-bold text-[1.3rem] flex mb-4 btn btn-blue'  >Wanna Ask Qsn To Chatbot</Link>
                     {/* {navigation.map((item) => (
                       <a
                         key={item.name}
