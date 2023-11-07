@@ -50,6 +50,7 @@ export default function Navbar() {
                   <div className="flex space-x-4">
                   <Link to="/petOwner-Login" className='text-white font-bold text-[1.5rem] flex mb-4e'>login as pet owner</Link>
                   <Link to="/petKeeper-Login" className='text-white font-bold text-[1.5rem] flex mb-4' >Login as pet keeper</Link>
+                     <Link to="https://bot.textbase.ai/sahilpradhan411/palmai" className='text-white font-bold text-[1.5rem] flex mb-4' >Wanna Ask Qsn To Chatbot</Link>
                     {/* {navigation.map((item) => (
                       <a
                         key={item.name}
